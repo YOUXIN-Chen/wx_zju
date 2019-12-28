@@ -1,1 +1,19 @@
 /* pages/login/login.wxss */
+
+.input {
+    display: flex;
+    /* width: 80%; */
+    /* margin-left: 10%; */
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.input image {
+    width: 25px;
+    height: 25px;
+}
+
+.input input {
+    height: 25px;
+}
