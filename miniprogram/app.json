@@ -3,7 +3,8 @@
         "pages/login/login",
         "pages/stuInfoManaSys/stuInfoManaSys",
         "pages/manaPage/manaPage",
-        "pages/stuPage/stuPage"
+        "pages/stuPage/stuPage",
+        "pages/setStuCourse/setStuCourse"
     ],
     "window": {
         "backgroundTextStyle": "light",
