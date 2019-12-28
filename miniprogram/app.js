@@ -6,6 +6,7 @@ App({
             env:"cl-zju-qg1na"
         })
     },
+    
     globalData: {
         userInfo: null,
         isStudent: '',
