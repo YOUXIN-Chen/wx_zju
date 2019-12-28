@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view>
+    <input bindinput="getUserNumber" placeholder="请输入序号"></input>
+    <input bindinput="getUserPassword" placeholder="请输入密码" password=""></input>
+    <button bindtap="login">登录</button>
+</view>

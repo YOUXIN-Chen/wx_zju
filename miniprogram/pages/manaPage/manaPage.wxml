@@ -1,0 +1,17 @@
+<!--miniprogram/pages/manaPage/manaPage.wxml-->
+<!-- <text>miniprogram/pages/manaPage/manaPage.wxml</text> -->
+<view>
+    <text>Hello, {{userName}}</text>
+</view>
+
+<view>
+    <button bindtap="toStuInfoManaSys">学生个人信息管理</button>
+</view>
+
+<view>
+    <button bindtap="toStuSIQuerySys">学生签到查询</button>
+</view>
+
+<view>
+    <button bindtap="toStuSIQuerySys">课程签到查询</button>
+</view>

@@ -1,0 +1,16 @@
+{
+    "pages": [
+        "pages/login/login",
+        "pages/stuInfoManaSys/stuInfoManaSys",
+        "pages/manaPage/manaPage",
+        "pages/stuPage/stuPage"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

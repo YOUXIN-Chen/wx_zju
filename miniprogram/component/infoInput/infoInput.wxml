@@ -1,0 +1,5 @@
+<view hidden="{{isHidden}}">
+    <input value="{{addUserNumber}}" type="text" bindinput="getUserNumber"></input>
+    <input value="{{addUserPassword}}" type="text" bindinput="getUserPassword"></input>
+    <input value="{{addUserName}}" type="text" bindinput="getUserName"></input>
+</view>

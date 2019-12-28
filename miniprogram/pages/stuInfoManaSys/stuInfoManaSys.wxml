@@ -1,0 +1,32 @@
+<!--miniprogram/pages/stuInfoManaSys/stuInfoManaSys.wxml-->
+<!-- <text>miniprogram/pages/stuInfoManaSys/stuInfoManaSys.wxml</text> -->
+<view>
+    <button bindtap="addStuInfo">添加学生信息</button>
+    <button bindtap="addAdmInfo">添加管理员</button>
+    <button bindtap="setStuinfo">查询、修改学生信息</button>
+</view>
+
+<view hidden="{{isStuHidden}}">
+    <input type="text" placeholder="请输入学生姓名" bindinput="getUserName" value="{{addUserName}}"></input>
+    <input type="text" placeholder="请输入学生序号" bindinput="getUserNumber" value="{{addUserNumber}}"></input>
+    <input type="text" placeholder="请输入学生密码" bindinput="getUserPassword" value="{{addUserPassword}}"></input>
+    <button bindtap="addStuInfoToDB">确认添加</button>
+</view>
+
+<view hidden="{{isAdmHidden}}">
+    <input type="text" placeholder="请输入管理员姓名" bindinput="getUserName" value="{{addUserName}}"></input>
+    <input type="text" placeholder="请输入管理员序号" bindinput="getUserNumber" value="{{addUserNumber}}"></input>
+    <input type="text" placeholder="请输入管理员密码" bindinput="getUserPassword" value="{{addUserPassword}}"></input>
+    <button bindtap="addAdmInfoToDB">确认添加</button>
+</view>
+
+<view hidden="{{isSetHidden}}">
+    <input type="text" placeholder="请输入学生序号" bindinput="getUserNumber" value="{{addUserNumber}}"></input>
+    <button bindtap="queryStuInfo">查询</button>
+    <button bindtap="setStuInfo">修改</button>
+    <view hidden="{{isHidden}}">
+        <input value="{{addUserNumber}}" type="text" bindinput="getUserNumber"></input>
+        <input value="{{addUserPassword}}" type="text" bindinput="getUserPassword"></input>
+        <input value="{{addUserName}}" type="text" bindinput="getUserName"></input>
+    </view>
+</view>
