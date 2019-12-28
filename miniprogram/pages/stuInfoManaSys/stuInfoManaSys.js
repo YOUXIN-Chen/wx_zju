@@ -104,6 +104,7 @@ Page({
         this.handleData();
     },
 
+
     addAdmInfoToDB: function () {
         this.setData({
             isStudent: false
@@ -179,7 +180,7 @@ Page({
     },
 
     setStuInfo: function () {
-        console.log(this.data.setUserNumber)
+        console.log(this.data.addUserNumber)
         var that = this;
         const db = wx.cloud.database();
         db.collection("T_userI").doc(that.data.set_id).update({
