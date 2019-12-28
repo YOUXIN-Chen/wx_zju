@@ -2,7 +2,8 @@
 App({
     onLaunch: function() {
         wx.cloud.init({
-            traceUser:true
+            traceUser:true,
+            env:"cl-zju-qg1na"
         })
     },
     globalData: {
